@@ -1,3 +1,9 @@
+Private fork of [st](https://st.suckless.org/) with patches and config.
+
+For original source, see <https://git.suckless.org/st/>.
+
+Patches: [xresources](https://st.suckless.org/patches/xresources/) and [scrollback](https://st.suckless.org/patches/scrollback/).
+
 st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.

@@ -50,6 +50,7 @@ st \- simple terminal
 .SH DESCRIPTION
 .B st
 is a simple terminal emulator.
+It reads its colors from .Xresources.
 .SH OPTIONS
 .TP
 .B \-a
@@ -142,13 +143,13 @@ Print the full screen to the
 Print the selection to the
 .I iofile.
 .TP
-.B Ctrl-Shift-Page Up
-Increase font size.
+.B Ctrl-+
+Increase font size, also CTRL-mousescroll.
 .TP
-.B Ctrl-Shift-Page Down
-Decrease font size.
+.B Ctrl--
+Decrease font size, also CTRL-mousescroll.
 .TP
-.B Ctrl-Shift-Home
+.B Ctrl-0
 Reset to default font size.
 .TP
 .B Ctrl-Shift-y
